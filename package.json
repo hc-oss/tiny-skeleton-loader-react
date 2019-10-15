@@ -1,0 +1,48 @@
+{
+  "name": "tiny-skeleton-loader-react",
+  "version": "1.0.0",
+  "description": "zero dependency, ultra lightweight (1KB gzipped) skeleton loader component for react",
+  "author": "harshzalavadiya",
+  "license": "MIT",
+  "repository": "harshzalavadiya/tiny-skeleton-loader-react",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.6",
+    "@types/react-dom": "^16.9.2",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "cross-env": "^6.0.3",
+    "gh-pages": "^2.1.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts-ts": "^3.1.0",
+    "rollup": "^1.24.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-typescript2": "^0.24.3",
+    "rollup-plugin-url": "^3.0.0",
+    "typescript": "^3.6.4"
+  },
+  "files": [
+    "dist"
+  ]
+}
