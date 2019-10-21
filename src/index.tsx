@@ -5,10 +5,10 @@ import css from "./styles.css";
 function SkeletonLoader({
   width = "100%",
   height = "1em",
-  background = "#eff1f6",
+  background = "#E9ECEF",
   radius = "4px",
   circle = false,
-  block = false,
+  block = true,
   style = {}
 }) {
   return (
