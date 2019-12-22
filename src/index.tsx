@@ -12,21 +12,19 @@ function SkeletonLoader({
   style = {}
 }) {
   return (
-    <>
-      <div
-        className={css.skeleton}
-        style={{
-          width,
-          height,
-          background,
-          borderRadius: circle ? "50%" : radius,
-          display: block ? "block" : "inline-block",
-          ...style
-        }}
-      >
-        &zwnj;
-      </div>
-    </>
+    <div
+      className={css.skeleton}
+      style={{
+        width,
+        height,
+        background,
+        borderRadius: circle ? "50%" : radius,
+        display: block ? "block" : "inline-block",
+        ...style
+      }}
+    >
+      &zwnj;
+    </div>
   );
 }
 
