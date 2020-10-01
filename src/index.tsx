@@ -2,6 +2,16 @@ import React from "react";
 
 import css from "./styles.css";
 
+interface SkeletonLoaderProps {
+  width?;
+  height?;
+  background?;
+  radius?;
+  circle?: boolean;
+  block?: boolean;
+  style?: React.CSSProperties;
+}
+
 function SkeletonLoader({
   width = "100%",
   height = "1em",
@@ -9,8 +19,8 @@ function SkeletonLoader({
   radius = "4px",
   circle = false,
   block = true,
-  style = {}
-}) {
+  style = {},
+}: SkeletonLoaderProps) {
   return (
     <div
       className={css.skeleton}
@@ -20,7 +30,7 @@ function SkeletonLoader({
         background,
         borderRadius: circle ? "50%" : radius,
         display: block ? "block" : "inline-block",
-        ...style
+        ...style,
       }}
     >
       &zwnj;
