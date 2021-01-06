@@ -24,8 +24,8 @@
   "devDependencies": {
     "@types/react": "^17.0.0",
     "@types/react-dom": "^16.9.8",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "rollup": "^2.28.2",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
