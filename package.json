@@ -1,6 +1,6 @@
 {
   "name": "tiny-skeleton-loader-react",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "zero dependency, ultra lightweight (1KB gzipped) skeleton loader component for react",
   "author": "harshzalavadiya",
   "license": "MIT",
@@ -22,19 +22,19 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@types/react": "^17.0.19",
+    "@types/react": "^17.0.24",
     "@types/react-dom": "^17.0.9",
-    "postcss": "^8.3.6",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "rollup": "^2.56.3",
+    "postcss": "^8.3.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.57.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.1",
     "rollup-plugin-typescript2": "^0.30.0",
     "rollup-plugin-url": "^3.0.1",
-    "typescript": "^4.4.2"
+    "typescript": "^4.4.3"
   },
   "files": [
     "dist"
