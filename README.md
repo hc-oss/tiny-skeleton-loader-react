@@ -37,7 +37,7 @@ class Example extends React.Component {
 | `background`   | `background`    | Loader background color | `string`  | `"#eff1f6"` |
 | `circle`       | `circle`        | Make Skeleton Circle    | `boolean` | `false`     |
 | `borderRadius` | `border-radius` | Loader radius           | `string`  | `"4px"`     |
-| `block`        | `block`         | Weather to start new    | `boolean` | `true`     |
+| `block`        | `block`         | Whether to start new    | `boolean` | `true`     |
 | `style`        | `style`         | Extra Styles            | `object`  | `{}`        |
 
 ## License
