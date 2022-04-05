@@ -10,6 +10,7 @@ interface SkeletonLoaderProps {
   circle?: boolean;
   block?: boolean;
   style?: React.CSSProperties;
+  as?: keyof JSX.IntrinsicElements
 }
 
 function SkeletonLoader({
@@ -20,9 +21,10 @@ function SkeletonLoader({
   circle = false,
   block = true,
   style = {},
+  as: Tag = "div",
 }: SkeletonLoaderProps) {
   return (
-    <div
+    <Tag
       className={css.skeleton}
       style={{
         width,
@@ -34,7 +36,7 @@ function SkeletonLoader({
       }}
     >
       &zwnj;
-    </div>
+    </Tag>
   );
 }
 
