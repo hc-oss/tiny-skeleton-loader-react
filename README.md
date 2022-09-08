@@ -31,14 +31,15 @@ class Example extends React.Component {
 ## 👀 Properties
 
 | Property       | Attribute       | Description             | Type      | Default     |
-| -------------- | --------------- | ----------------------- | --------- | ----------- |
+|----------------|-----------------|-------------------------|-----------|-------------|
 | `width`        | `width`         | Loader Width            | `string`  | `"100%"`    |
 | `height`       | `height`        | Loader Height           | `string`  | `"1em"`     |
 | `background`   | `background`    | Loader background color | `string`  | `"#eff1f6"` |
 | `circle`       | `circle`        | Make Skeleton Circle    | `boolean` | `false`     |
 | `borderRadius` | `border-radius` | Loader radius           | `string`  | `"4px"`     |
-| `block`        | `block`         | Whether to start new    | `boolean` | `true`     |
+| `block`        | `block`         | Whether to start new    | `boolean` | `true`      |
 | `style`        | `style`         | Extra Styles            | `object`  | `{}`        |
+| `as`           | --              | The HTML element        | `string`  | `"div"`     |
 
 ## License
 
