@@ -1,6 +1,6 @@
 {
   "name": "tiny-skeleton-loader-react",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "zero dependency, ultra lightweight (1KB gzipped) skeleton loader component for react",
   "author": "harshzalavadiya",
   "license": "MIT",
